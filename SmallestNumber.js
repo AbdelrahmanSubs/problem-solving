@@ -19,7 +19,7 @@ function findSmallestInt(arr) {
   return smallestN;
 }
 
-// What I learned : 
+// What I Used : 
 // 1- on line 11 I should start from the first item on the array it's eazier and will use less resourses
 // 2- on line 13 starting from the 2nd item on the array because we're already started the virable form the 1st item on the array
 // 3- on line 14 is the core of the solution because we're usign the loop to compare the arr's items to get the smallest number
