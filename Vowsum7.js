@@ -22,3 +22,11 @@ function getCount(str) {
 // }
 
 // He just used the "match" function to create an array form the str arry with the vow's and when it's finished it get it's length CLEVER
+
+// AND 
+
+// function getCount(str) {
+//  return str.split('').filter(c => "aeiouAEIOU".includes(c)).length;
+// }
+
+// splited the string and filter it with the Vow's and if it's includes the vow's get there length, GOOD!
