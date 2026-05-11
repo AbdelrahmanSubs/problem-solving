@@ -33,3 +33,18 @@ function digPow(n, p){
 // - toString + Split to get an array of the numbers 
 // - looping on every element and ** it with p+i 
 // - if sum%n === 0 that means K is and integer so return K or -1 if it's false 
+
+// Cleaver Solution that I found 
+// function digPow(n, p) {
+//   var x = String(n).split("").reduce((s, d, i) => s + Math.pow(d, p + i), 0)
+//   return x % n ? -1 : x / n
+// }
+
+// OR
+
+// function digPow(n, p){
+//   var ans = (''+n).split('')
+//     .map(function(d,i){return Math.pow(+d,i+p) })
+//     .reduce(function(s,v){return s+v}) / n
+//   return ans%1 ? -1 : ans    
+// }//z.
