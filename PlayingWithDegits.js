@@ -19,11 +19,9 @@ function digPow(n, p){
   let singleNum = n.toString().split("")
   let sum = 0;
   
-  
   for(let i = 0; i < singleNum.length; i++) {
     sum += singleNum[i]**(p + i)
   }
-  
   
   return sum % n === 0 ? sum / n : -1
 }
